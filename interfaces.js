@@ -1,7 +1,7 @@
 var objProduct = {
     id: 123,
     name: "iPhone",
-    descrioption: "It is awesome",
+    description: "It is awesome",
     price: 60000,
     display: function () {
         console.log(this.id + " " + this.name);
@@ -10,9 +10,10 @@ var objProduct = {
 var objProduct = {
     id: 133,
     name: "Android",
-    descrioption: "It is greate",
+    description: "It is great",
     price: 40000,
     display: function () {
         console.log(this.id);
     }
 };
+objProduct.display();
