@@ -1,5 +1,5 @@
 // let grades = prompt('Please enter your marks');
-let prompt = (math:number,physics:number,chem:number) =>{
+let grades = (math:number,physics:number,chem:number) =>{
 let average = (math+physics+chem)/3;
 if (average>90) {
     console.log(`Your Maths marks is :${math}`);
@@ -26,4 +26,3 @@ if (average<70) {
 grades(70,60,70);
 grades(80,70,75);
 grades(95,95,95);
-
